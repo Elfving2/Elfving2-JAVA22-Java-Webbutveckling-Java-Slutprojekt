@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    height: 100vh;
+    color:white;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.answer {
+    margin: 5% 25%;
+    width: 50%;
+    background-color:green;
+    display: grid;
+}
+
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 50px;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.cookie-banner {
+    background: #444;
+    color: #fff;
+    padding: 6px;
+    font-size: 13px;
+    text-align:center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+.cookie-button {
+    text-decoration: none;
+    background: #222;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 4px 7px;
+    margin: 2px 0;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.07s, color 0.07s, border-color 0.07s;
+}
+.cookie-button:hover {
+    background: #fff;
+    color:#222;
+}
